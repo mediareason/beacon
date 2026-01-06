@@ -1,0 +1,28 @@
+id: ADR-0001
+title: "Use PostgreSQL for persistence"
+status: accepted
+created_at: 2025-01-02T09:00:00Z
+context: |
+  We need a database for storing services, incidents, and subscriber data.
+  Options considered: PostgreSQL, MySQL, MongoDB, SQLite.
+decision: |
+  Use PostgreSQL as the primary database.
+  - Strong ACID compliance for incident data integrity
+  - Excellent JSON support for flexible metadata
+  - Proven scalability for our projected load
+  - Team familiarity reduces onboarding time
+consequences: |
+  Positive:
+  - Reliable transaction support for incident updates
+  - Can use JSONB for component metadata without schema migrations
+  - Easy local development with Docker
+  
+  Negative:
+  - Slightly more operational complexity than SQLite
+  - Need to manage connection pooling at scale
+related_epics:
+  - EPIC-0001
+  - EPIC-0002
+tags:
+  - database
+  - infrastructure

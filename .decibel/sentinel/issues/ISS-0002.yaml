@@ -1,0 +1,11 @@
+id: ISS-0002
+title: "Implement uptime calculation logic"
+status: in_progress
+priority: high
+epic_id: EPIC-0001
+created_at: 2025-01-03T09:00:00Z
+updated_at: 2025-01-05T08:00:00Z
+description: "Calculate and display 30/90 day uptime percentages from incident history"
+tags:
+  - backend
+  - core

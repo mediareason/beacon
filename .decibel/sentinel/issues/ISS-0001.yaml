@@ -1,0 +1,11 @@
+id: ISS-0001
+title: "Design status indicator components"
+status: done
+priority: medium
+epic_id: EPIC-0001
+created_at: 2025-01-02T10:30:00Z
+updated_at: 2025-01-03T16:00:00Z
+description: "Create reusable components for operational/degraded/outage states"
+tags:
+  - frontend
+  - design

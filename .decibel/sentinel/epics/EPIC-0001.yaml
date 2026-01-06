@@ -1,0 +1,22 @@
+id: EPIC-0001
+title: "Core Status Page"
+summary: "Build the foundational status page that displays service health and uptime"
+status: in_progress
+priority: high
+created_at: 2025-01-02T10:00:00Z
+updated_at: 2025-01-05T09:00:00Z
+owner: demo
+motivation:
+  - "Teams need a public-facing page to communicate service health"
+  - "Reduces support burden by providing self-service status checks"
+outcomes:
+  - "Public status page accessible without authentication"
+  - "Real-time service health indicators"
+  - "Historical uptime display"
+acceptance_criteria:
+  - "Page loads in under 2 seconds"
+  - "Updates reflect within 30 seconds of status change"
+  - "Mobile responsive design"
+tags:
+  - mvp
+  - frontend

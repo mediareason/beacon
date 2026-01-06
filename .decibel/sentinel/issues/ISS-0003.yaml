@@ -1,0 +1,11 @@
+id: ISS-0003
+title: "Incident severity levels API"
+status: open
+priority: high
+epic_id: EPIC-0002
+created_at: 2025-01-04T11:00:00Z
+updated_at: 2025-01-04T11:00:00Z
+description: "Define and implement Critical/Major/Minor/Maintenance severity taxonomy"
+tags:
+  - backend
+  - api

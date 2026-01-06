@@ -1,0 +1,22 @@
+id: EPIC-0002
+title: "Incident Management"
+summary: "Enable teams to declare, update, and resolve incidents with full timeline tracking"
+status: in_progress
+priority: high
+created_at: 2025-01-02T11:00:00Z
+updated_at: 2025-01-04T14:00:00Z
+owner: demo
+motivation:
+  - "Incidents need structured lifecycle management"
+  - "Stakeholders need visibility into incident progress"
+outcomes:
+  - "Declare incidents with severity levels"
+  - "Post updates as investigation progresses"
+  - "Resolve with postmortem notes"
+acceptance_criteria:
+  - "Incident creation takes under 30 seconds"
+  - "Updates appear in real-time on status page"
+  - "Full incident history preserved"
+tags:
+  - mvp
+  - core

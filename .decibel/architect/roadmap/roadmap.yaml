@@ -1,0 +1,77 @@
+# Beacon Roadmap
+# Status page service for modern teams
+
+meta:
+  project: beacon
+  updated: 2025-01-05
+  owner: demo
+
+objectives:
+  - id: OBJ-0001
+    title: "Launch MVP"
+    description: "Ship a working status page that teams can deploy"
+    key_results:
+      - "Public status page with uptime display"
+      - "Incident creation and resolution flow"
+      - "Basic API for integrations"
+    status: in_progress
+    
+  - id: OBJ-0002
+    title: "Enable Team Communication"
+    description: "Help teams communicate incidents to stakeholders"
+    key_results:
+      - "Subscriber notifications"
+      - "Incident update timeline"
+      - "Scheduled maintenance windows"
+    status: planned
+
+themes:
+  - id: foundations
+    name: "Foundations"
+    description: "Core infrastructure and architecture"
+    color: "#4A90D9"
+    
+  - id: features
+    name: "Features"
+    description: "User-facing functionality"
+    color: "#7ED321"
+    
+  - id: integrations
+    name: "Integrations"
+    description: "Third-party connections"
+    color: "#F5A623"
+
+milestones:
+  - id: M-0001
+    title: "v1.0 - Public Launch"
+    target_date: "2025-02-28"
+    status: in_progress
+    epic_refs:
+      - EPIC-0001
+      - EPIC-0002
+    description: "First public release with core status page functionality"
+    
+  - id: M-0002
+    title: "v1.1 - Notifications"
+    target_date: "2025-04-15"
+    status: planned
+    epic_refs: []
+    description: "Proactive incident notifications for subscribers"
+
+epic_context:
+  EPIC-0001:
+    theme: foundations
+    milestone: M-0001
+    objectives:
+      - OBJ-0001
+    work_type: feature
+    adrs:
+      - ADR-0001
+  EPIC-0002:
+    theme: features
+    milestone: M-0001
+    objectives:
+      - OBJ-0001
+    work_type: feature
+    adrs:
+      - ADR-0001
